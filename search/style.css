@@ -1,3 +1,19 @@
+.g_blue {
+  color: #4785ed;
+}
+
+.g_red {
+  color: #db3236;
+}
+
+.g_green {
+  color: #3cba54;
+}
+
+.g_yellow {
+  color: #f4c20d;
+}
+
 .nav {
   overflow: hidden;
   margin: 10px;
@@ -16,10 +32,34 @@
 }
 
 .logo {
+  margin-top: 100px;
   text-align: center;
   font-family: sans-serif;
-  font-weight: bold;
-  font-size: 50px;
+  font-size: 85px;
+}
+
+.search_box {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.search_box input {
+  border: 1px solid #d9d9d9;
+  font-size: 20px;
+  border-radius: 25px;
+  height: 40px;
+  width: 500px;
+  outline: none;
+}
+.search_box input:hover {
+  box-shadow: 0px 0px 3px #b3b3b3;
+}
+
+.search_btn {
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

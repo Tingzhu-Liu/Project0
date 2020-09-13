@@ -1,3 +1,22 @@
+$google_blue: rgb(71, 133, 237);
+$google_red: rgb(219, 50, 54);
+$google_green: rgb(60, 186, 84);
+$google_yellow: rgb(244, 194, 13);
+
+.g_blue{
+    color: $google_blue;
+}
+.g_red{
+    color: $google_red;
+}
+.g_green{
+    color: $google_green;
+}
+.g_yellow{
+    color: $google_yellow;
+}
+
+
 .nav {
     overflow: hidden;
     margin: 10px;
@@ -17,9 +36,33 @@
 }
 
 .logo{
+
+    margin-top: 100px;
     text-align: center;
     font-family: sans-serif;
-    font-weight: bold;
-    font-size: 50px;
+    font-size: 85px;
+}
+
+.search_box{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    input{
+        border: 1px solid #d9d9d9;
+        font-size: 20px;
+        border-radius: 25px;
+        height: 40px;
+        width: 500px;
+        outline: none;
+        &:hover{
+            box-shadow: 0px 0px 3px #b3b3b3;
+        }
+    }
+}
+.search_btn{
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
