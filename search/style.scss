@@ -40,20 +40,48 @@ $google_yellow: rgb(244, 194, 13);
     margin-top: 100px;
     text-align: center;
     font-family: sans-serif;
-    font-size: 85px;
+    font-size: 85px;  
+}
+.l-image{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    .image{
+        position: relative;
+        left: 100px;
+        bottom: 15px;
+    }
 }
 
 .search_box{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    .material-icons{
+
+    #icon-front{
         position: relative;
         top: 7px;
+        color:#a6a6a6;
         left: 40px;
     }
+
+    .icon-btn{
+        position: relative;
+        top: 7px;
+        border: none;
+        background-color: white;
+        right: 50px;
+    }
+
+    #icon-back{
+        color: $google_blue;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+        
     input{
         border: 1px solid #d9d9d9;
         font-size: 16px;
