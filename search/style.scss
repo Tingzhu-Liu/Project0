@@ -2,6 +2,7 @@ $google_blue: rgb(71, 133, 237);
 $google_red: rgb(219, 50, 54);
 $google_green: rgb(60, 186, 84);
 $google_yellow: rgb(244, 194, 13);
+$google_black: #595959;
 
 .g_blue{
     color: $google_blue;
@@ -115,4 +116,110 @@ $google_yellow: rgb(244, 194, 13);
 
     }
 }
+.advance-nav{
+    margin:0;
+    overflow: hidden;
+    padding: 10px;
+    background-color:#f2f2f2;
 
+}
+.nav-logo{
+    font-family: sans-serif;
+    font-size: 30px;
+}
+#logo-link{
+    float: right;
+    padding-right: 20px;
+    text-decoration: none;
+    &:hover{
+        text-decoration: none;
+    }
+}
+body{
+    margin:0;
+}
+
+.top-row{
+    padding: 30px;
+    padding-left: 40px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: $google_red;
+    border-bottom: 1px solid;
+    border-color: #f2f2f2;
+}
+.second-row{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 40px;
+    >div{
+        font-size: 16px;
+        color: $google_black;
+        font-family: sans-serif;
+
+    }
+    .left-col{
+        padding-right: 630px;
+    }
+
+}
+
+.form-container{
+    margin-top: 5px;
+    >form{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        .input-container{
+            display: flex;
+            flex-direction: wrap;
+            margin-top: 15px;
+            .front{
+                margin-left: 40px;
+                font-family: sans-serif;
+                color: $google_black;
+                width: 190px;
+                height: 25px;
+                padding-top: 5px;
+                font-size: 15px;
+            }
+            input{
+                width: 555px;
+                height: 25px;
+                &:focus{
+                    border: 1px solid $google_blue;
+                    outline: none;
+                    box-shadow: 0px 0px 1px 0.5px #b3b3b3 inset;
+                }
+            }
+            .back{
+                margin-left: 20px;
+                font-family: sans-serif;
+                font-size: 15px;
+                width: 380px;
+                height: 25px;
+                padding-top: 5px;
+                color: $google_black;
+            }
+
+        }
+        
+    }
+}
+#advanced-search-btn{
+    margin-top: 30px;
+    margin-left: 660px;
+    >button{
+        padding: 8px 10px;
+        background-color: $google_blue;
+        color: white;
+        font-weight: bold;
+        outline: 1px;
+        border: none;
+        &:hover{
+            background-color: #1a75ff;
+        }
+    }
+}
