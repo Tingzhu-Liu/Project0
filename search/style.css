@@ -161,17 +161,12 @@ body {
 .form-container {
   margin-top: 5px;
 }
-.form-container > form {
+.form-container .input-container {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-}
-.form-container > form .input-container {
-  display: flex;
-  flex-direction: wrap;
   margin-top: 15px;
 }
-.form-container > form .input-container .front {
+.form-container .input-container .front {
   margin-left: 40px;
   font-family: sans-serif;
   color: #595959;
@@ -180,16 +175,16 @@ body {
   padding-top: 5px;
   font-size: 15px;
 }
-.form-container > form .input-container input {
+.form-container .input-container input {
   width: 555px;
   height: 25px;
 }
-.form-container > form .input-container input:focus {
+.form-container .input-container input:focus {
   border: 1px solid #4785ed;
   outline: none;
   box-shadow: 0px 0px 1px 0.5px #b3b3b3 inset;
 }
-.form-container > form .input-container .back {
+.form-container .input-container .back {
   margin-left: 20px;
   font-family: sans-serif;
   font-size: 15px;

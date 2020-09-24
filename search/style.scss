@@ -168,13 +168,10 @@ body{
 
 .form-container{
     margin-top: 5px;
-    >form{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
+    
         .input-container{
             display: flex;
-            flex-direction: wrap;
+            flex-wrap: wrap;
             margin-top: 15px;
             .front{
                 margin-left: 40px;
@@ -206,8 +203,8 @@ body{
 
         }
         
-    }
 }
+
 #advanced-search-btn{
     margin-top: 30px;
     margin-left: 660px;
